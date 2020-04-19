@@ -42,6 +42,7 @@ define([
                 }
             });
         });
+        window.close();//debug
     }
 
     return {activate: activate}
